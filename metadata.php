@@ -21,6 +21,6 @@ $aModule = [
             Sioweb\Oxid\FastInstall\Controller\Admin\ModuleList::class
     ],
     'templates' => [
-        'fast_install_module_list.tpl' => 'views/tpl/admin/fast_install_module_list.tpl',
+        'fast_install_module_list.tpl' => 'sioweb/FastInstall/views/tpl/admin/fast_install_module_list.tpl',
     ],
 ];
