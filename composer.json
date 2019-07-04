@@ -1,0 +1,29 @@
+{
+  "name": "sioweb/oxid-fastinstall",
+  "description": "Oxid module schneller installieren",
+  "type": "oxideshop-module",
+  "keywords": [
+    "oxid",
+    "modules"
+  ],
+  "homepage": "https://www.sioweb.de",
+  "license": [
+    "GPL-3.0-only"
+  ],
+  "extra": {
+    "oxideshop": {
+      "blacklist-filter": [
+        "documentation/**/*.*"
+      ],
+      "target-directory": "sioweb/FastInstall"
+    }
+  },
+  "require": {
+    "php": ">=7.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Sioweb\\Oxid\\FastInstall\\": "../../../source/modules/sioweb/FastInstall/"
+    }
+  }
+}
